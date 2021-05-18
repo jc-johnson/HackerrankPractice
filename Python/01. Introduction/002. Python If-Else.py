@@ -9,4 +9,9 @@ def wierd(n):
         print('Not Weird')
 
 
-wierd(int(input()))
+def main():
+    print ('test')
+    wierd(10)
+    
+if __name__ == "__main__":
+    main()

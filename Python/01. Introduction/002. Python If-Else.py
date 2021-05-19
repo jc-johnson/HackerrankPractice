@@ -7,8 +7,10 @@ import unittest
 def wierd(n):
     if n % 2 == 1 or 6 <= n <= 20:
         print('Weird')
+        return('Weird')
     else:
         print('Not Weird')
+        return('Not Weird')
 
 def test_weird():
     tc = unittest.TestCase()
